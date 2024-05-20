@@ -1,3 +1,5 @@
+// import this after install `@mdi/font` package
+import "@mdi/font/css/materialdesignicons.css";
 // Vuetify
 import "vuetify/styles";
 import { aliases, mdi } from "vuetify/iconsets/mdi";

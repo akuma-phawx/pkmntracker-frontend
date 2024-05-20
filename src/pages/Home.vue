@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 <template>
-    Home
+  <h3>Home Page</h3>
 </template>

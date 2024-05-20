@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 <template>
-    Sets
+  <h3>Sets Page</h3>
 </template>
