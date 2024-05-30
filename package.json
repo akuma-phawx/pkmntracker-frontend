@@ -6,20 +6,33 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
+    "@auth0/auth0-vue": "^2.3.3",
     "@mdi/font": "^7.4.47",
+    "path": "^0.12.7",
     "sass": "^1.77.2",
     "vite-plugin-vuetify": "^2.0.3",
+    "vite-tsconfig-paths": "^4.3.2",
     "vue": "^3.4.21",
     "vue-router": "^4.3.2",
     "vuetify": "^3.6.6"
   },
   "devDependencies": {
+    "@eslint/js": "^9.3.0",
     "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "globals": "^15.3.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "prettier": "3.2.5",
     "typescript": "^5.2.2",
+    "typescript-eslint": "^7.11.0",
     "vite": "^5.2.0",
-    "vue-tsc": "^2.0.6"
+    "vue-tsc": "^2.0.19"
   }
 }

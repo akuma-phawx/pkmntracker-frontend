@@ -1,5 +1,4 @@
 <script setup lang="ts"></script>
-
 <template>
-  <RouterView />
+  <h1>Welcome to Pkmntracker</h1>
 </template>
