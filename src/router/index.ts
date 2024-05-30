@@ -9,6 +9,7 @@ const Home = () => import("../pages/Home.vue");
 const NotFound = () => import("../pages/errors/NotFound.vue");
 const App = () => import("../pages/auth/App.vue");
 const UserProfile = () => import("@/pages/auth/user/UserProfile.vue");
+
 /**
  * Array of route objects.
  * Each route object contains the path and component for the route.
